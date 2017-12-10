@@ -39,10 +39,13 @@ step3:
 
 # Api
   tsTree.getLastNodeId()
+  
     tsTree.getLastNodeId().id // the selected last node id
     tsTree.getLastNodeId().name // the selected last node name
     tsTree.getLastNodeId().last // parent node id
+    
   tsTree.getAllSelectedNode()
+  
     //return type:array;
     tsTree.getAllSelectedNode()[i].id // one of all selected node id
     tsTree.getAllSelectedNode()[i].name // one of all selected node name
