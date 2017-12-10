@@ -37,6 +37,7 @@ data<br/>
   var data = [{"id":5,"last":0,"name":"A-1"},{"id":6,"last":0,"name":"A-2"},{"id":7,"last":0,"name":"A-3"}];
   ```
 ## step4:
+init<br/>
 ```
   var tsTree = $.fn.tsTree.init($('#categorey'),data);
 ```
