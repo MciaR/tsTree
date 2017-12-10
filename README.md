@@ -20,26 +20,26 @@ Email: nnsmile526@gmail.com
 
 # Start
 ## step1: 
-//js and css<br/>
+js and css<br/>
 ```
   <link rel="stylesheet" type="text/css" href="tsTree.css">
   <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
   <script type="text/javascript" src="tsTree.js"></script>
   ```
 ## step2: 
-//creat a dom <br/>
+creat a dom <br/>
 ```
   <div id="categorey"></div>
 ```
 ## step3:
-//init<br/>
+data<br/>
 ```
-  <script type="text/javascript">
-    var data = [{"id":5,"last":0,"name":"A-1"},{"id":6,"last":0,"name":"A-2"},{"id":7,"last":0,"name":"A-3"}]; //data 
-    var tsTree = $.fn.tsTree.init($('#categorey'),data);
-  </script>
+  var data = [{"id":5,"last":0,"name":"A-1"},{"id":6,"last":0,"name":"A-2"},{"id":7,"last":0,"name":"A-3"}];
   ```
-
+## step4:
+```
+  var tsTree = $.fn.tsTree.init($('#categorey'),data);
+```
 # Api
   * tsTree.getLastNodeId()
   ```
@@ -48,8 +48,8 @@ Email: nnsmile526@gmail.com
     tsTree.getLastNodeId().last // parent node id
  ```   
   * tsTree.getAllSelectedNode()
+  return type:array;
   ```
-    //return type:array;
     tsTree.getAllSelectedNode()[i].id // one of all selected node id
     tsTree.getAllSelectedNode()[i].name // one of all selected node name
     tsTree.getAllSelectedNode()[i].last //one of all selected parent node id
