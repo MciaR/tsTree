@@ -1,5 +1,5 @@
 # tsTree
-# written by syzc.MciaR
+written by syzc.MciaR
 jQuery Transverse tree, js tree plugins, jQuery, tree plugins, categorey tree, categorey plugins, multilevel list, expandable list
 
 You just need tsTree.js and tsTree.css in your html.And dont forget the jQuery.min.js!
