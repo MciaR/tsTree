@@ -21,16 +21,19 @@ Email: nnsmile526@gmail.com
 # Start
 step1:
 //js and css
+
   <link rel="stylesheet" type="text/css" href="tsTree.css">
-	<script type="text/javascript" src="jquery-3.2.0.min.js"></script>
-	<script type="text/javascript" src="tsTree.js"></script>
+  <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="tsTree.js"></script>
   
 step2:
 //creat a dom 
+
   <div id="categorey"></div>
 
 step3:
 //init
+
   <script type="text/javascript">
     var data = [{"id":5,"last":0,"name":"A-1"},{"id":6,"last":0,"name":"A-2"},{"id":7,"last":0,"name":"A-3"}]; //data 
     var tsTree = $.fn.tsTree.init($('#categorey'),data);
