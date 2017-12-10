@@ -19,40 +19,39 @@ Email: nnsmile526@gmail.com
 插件很简单希望可以帮助到你们！邮箱留在了上面，随时欢迎联系我！
 
 # Start
-step1: <br/>
+## step1: 
 //js and css<br/>
 ```
   <link rel="stylesheet" type="text/css" href="tsTree.css">
   <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
   <script type="text/javascript" src="tsTree.js"></script>
   ```
-<br/>step2: <br/>
+## step2: 
 //creat a dom <br/>
 ```
   <div id="categorey"></div>
 ```
-<br/>step3: <br/>
+## step3:
 //init<br/>
 ```
   <script type="text/javascript">
     var data = [{"id":5,"last":0,"name":"A-1"},{"id":6,"last":0,"name":"A-2"},{"id":7,"last":0,"name":"A-3"}]; //data 
-  
     var tsTree = $.fn.tsTree.init($('#categorey'),data);
   </script>
   ```
 
 # Api
   * tsTree.getLastNodeId()
-  
+  ```
     tsTree.getLastNodeId().id // the selected last node id
     tsTree.getLastNodeId().name // the selected last node name
     tsTree.getLastNodeId().last // parent node id
-    
+ ```   
   * tsTree.getAllSelectedNode()
-  
+  ```
     //return type:array;
     tsTree.getAllSelectedNode()[i].id // one of all selected node id
     tsTree.getAllSelectedNode()[i].name // one of all selected node name
     tsTree.getAllSelectedNode()[i].last //one of all selected parent node id
-    
+   ``` 
 
