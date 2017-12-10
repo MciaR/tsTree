@@ -49,7 +49,7 @@ init<br/>
     tsTree.getLastNodeId().last // parent node id
  ```   
   * tsTree.getAllSelectedNode()
-  <br/>return type:array;
+  <br/>//return type:array;
   ```
     tsTree.getAllSelectedNode()[i].id // one of all selected node id
     tsTree.getAllSelectedNode()[i].name // one of all selected node name
